@@ -8,14 +8,17 @@ public class User {
 	private String mobileNumber;
 	private String password;
 
-	public User(String firstName, String lastName, String email, String mobileNumber, String password) {
+	
+	public User() {
 		super();
 		this.setFirstName(firstName);
 		this.setLastName(lastName);
 		this.setEmail(email);
 		this.setMobileNumber(mobileNumber);
 		this.setPassword(password);
+		
 	}
+
 
 	public String getFirstName() {
 		return firstName;
