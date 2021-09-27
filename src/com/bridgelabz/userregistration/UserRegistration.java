@@ -1,5 +1,4 @@
 package com.bridgelabz.userregistration;
-
 import java.util.Scanner;
 
 public class UserRegistration {
@@ -20,5 +19,9 @@ public class UserRegistration {
 		System.out.print("\nEnter your Email: ");
 		System.out.println(scanner.nextLine().matches("^[a-z]+([.]?[a-z0-9_+-]+)?@[a-z1-9]+[.][a-z]{2,}([.][a-z]{2,})?$"));
 		
+	}
+	public void getMobileNumber() {
+		System.out.print("\nEnter your Mobile Number: ");
+		System.out.println(scanner.nextLine().matches("^\\d{2} \\d{10}$"));
 	}
 }
