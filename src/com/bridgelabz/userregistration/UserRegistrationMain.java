@@ -9,6 +9,7 @@ public static void main(String[] args) {
 
 	newUser.getFirstName();
 	newUser.getLastName();
+	newUser.getEmail();
 	UserRegistration.scanner.close();
 }
 }
